@@ -1,0 +1,20 @@
+{
+  "name": "crypto-transactions-api",
+  "version": "1.0.0",
+  "description": "A backend service to fetch and store crypto transactions and prices.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "node-cron": "^3.0.3"
+  }
+}
